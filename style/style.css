@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.bannar{
+    max-width: 1350px;
+    margin: 0 auto; 
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-color: rgba(0, 0, 0, 0.494);
+    background-blend-mode:multiply;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 10px;
+}
+
+.bannar-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-top:106px ;
+    padding-bottom: 50px;
+}
+
+.bannar-content-heading{
+color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800; 
+}
+
+.bannar-content-p{
+    color: #FFF;
+   padding-top: 20px;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+width: 676px;
+
+
+}
+
+
+/* input-fild */
+
+.input-fild{
+    background-color:  rgba(255, 255, 255, 0.30);
+     flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    padding-left: 280px;
+}
+
+
+.input{
+    width: 174px;
+height: 48px;
+border-radius: 7px;
+border: 0;
+padding-left: 10px;
+}
+
+.button{
+    width: 174px;
+height: 48px;
+color:#FFF;
+border-radius: 8px;
+background: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+border: 0;
+}
+
+
+
+/* our popular tour */
+
+.tour{
+    max-width: 1350px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    
+}
+
+.tour-content{
+    width: 50%;
+
+}
+
+.tour-content-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+padding-bottom: 15px;
+}
+
+.tour-content-titel-common{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+width: 577px;
+padding: 15px;
+
+}
+
+.tour-content-titel-ui{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 577px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.tour-img{
+    width: 50%;
+    padding-left: 130px;
+}

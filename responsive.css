@@ -1,0 +1,21 @@
+@media screen and (max-width:600px){
+    .bannar{
+        width: 100%;
+height: 483px;
+        background-repeat: no-repeat;
+    }
+
+/* popular-tour */
+.tour{
+    flex-direction: column;
+}
+
+.tour-content-title{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.tour-img{
+
+}
+}
