@@ -200,3 +200,30 @@ object-fit: cover;
 .grid-7{
     grid-column: 6/ span 13;
 }
+
+/* Why Choose Us */
+
+.service-titel{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* margin: 20px auto; */
+   margin-bottom: 30px;
+}
+
+.sr-titel{
+    color: #131318
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+
+.sr-para{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+}
