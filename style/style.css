@@ -59,7 +59,6 @@ width: 676px;
     padding-left: 280px;
 }
 
-
 .input{
     width: 174px;
 height: 48px;
@@ -67,7 +66,6 @@ border-radius: 7px;
 border: 0;
 padding-left: 10px;
 }
-
 .button{
     width: 174px;
 height: 48px;
@@ -94,10 +92,8 @@ border: 0;
 
     
 }
-
 .tour-content{
     width: 50%;
-
 }
 
 .tour-content-title{
@@ -134,4 +130,32 @@ padding: 15px;
 .tour-img{
     width: 50%;
     padding-left: 130px;
+}
+
+/* Choose Your Destination */
+
+.Destination{
+max-width: 1350px;
+margin: 0 auto;
+min-height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.d-titel{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.d-paragraph{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;;
+font-weight: 400;
+line-height: 26px;
+
 }

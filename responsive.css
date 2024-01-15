@@ -3,6 +3,7 @@
         width: 100%;
 height: 483px;
         background-repeat: no-repeat;
+        
     }
 
 /* popular-tour */
@@ -18,4 +19,35 @@ height: 483px;
 .tour-img{
 
 }
+
+
+
+/* chose-your-destanitation */
+
+.Destination{
+padding-left: 40px ;
+}
+
+.d-titel{
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+}
+
+.d-paragraph{
+    width: 309px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+
+
+
+
+
+
 }
