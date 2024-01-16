@@ -93,8 +93,9 @@ border-radius: 8px;
 padding: 10px;
 border-radius: 8px;
 }
+
 .button{
-    width:400px;
+    width:150px;
 height: 48px;
 color:#FFF;
 border-radius: 8px;
@@ -102,10 +103,9 @@ background: #FF5400;
 text-align: center;
 font-family: Mulish;
 font-size: 16px;
-font-weight: 700;
+font-weight: 00;
 border: 0;
 }
-
 
 /* main */
 .main-section{
@@ -119,22 +119,18 @@ border: 0;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-
-    
 }
 .tour-content{
     width: 50%;
 }
-
 .tour-content-title{
-    color: #131318;
+color: #131318;
 font-family: Mulish;
-font-size: 40px;
+font-size: 30px;
 font-style: normal;
-font-weight: 800;
-padding-bottom: 15px;
+font-weight: 600;
+padding-bottom: 15px; 
 }
-
 .tour-content-titel-common{
     color: rgba(19, 19, 24, 0.70);
 font-family: Mulish;
@@ -143,9 +139,7 @@ font-weight: 400;
 line-height: 26px;
 width: 577px;
 padding: 15px;
-
 }
-
 .tour-content-titel-ui{
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
@@ -156,11 +150,11 @@ padding: 15px;
     padding-left: 25px;
     padding-bottom: 15px;
 }
-
 .tour-img{
     width: 50%;
     padding-left: 130px;
-}
+} 
+
 
 /* Choose Your Destination */
 
