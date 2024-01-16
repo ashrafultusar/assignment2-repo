@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800;900&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -52,22 +51,20 @@ font-weight: 400;
 }
 
 .bannar-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    padding-top:106px ;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+  padding-left: 350px;
 }
-
 .bannar-content-heading{
 color: #FFF;
 font-family: Mulish;
 font-size: 64px;
 font-weight: 800; 
+padding-left: 30px;
 }
 
 .bannar-content-p{
+    
     color: #FFF;
    padding-top: 20px;
 font-family: Mulish;
@@ -75,29 +72,29 @@ font-size: 16px;
 font-weight: 400;
 width: 676px;
 
-
 }
 
-
-/* input-fild */
-
 .input-fild{
-    background-color:  rgba(255, 255, 255, 0.30);
-     flex-direction: row;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center; 
-    padding-left: 280px;
+    background:  rgba(255, 255, 255, 0.30);
+    width: 800px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+.input-fild> select{
+    background-color: #FFF;
 }
 
 .input{
-    width: 174px;
-height: 48px;
-border-radius: 7px;
-border: 0;
-padding-left: 10px;
+   width: 100px;
+border-radius: 8px;
+padding: 10px;
+border-radius: 8px;
 }
 .button{
-    width: 174px;
+    width:400px;
 height: 48px;
 color:#FFF;
 border-radius: 8px;
@@ -109,6 +106,8 @@ font-weight: 700;
 border: 0;
 }
 
+
+/* main */
 .main-section{
     max-width: 1350px ;
     margin: 0 auto;
@@ -220,7 +219,6 @@ object-fit: cover;
 }
 .grid-4{
     grid-column: 5/span 5;
-   
 }
 .grid-5{
     grid-column: 10/ span 13; 
@@ -378,9 +376,6 @@ border-radius: 8px;
 background: #FF5400;
 border: 0;
 margin: 10px;
-}
-.news-pic{
-   
 }
 
 .discount{

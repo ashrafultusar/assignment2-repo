@@ -1,26 +1,119 @@
 @media screen and (max-width:600px){
+
+    .nav-right a{
+        display: none;
+      
+    }
     .bannar{
-        width: 100%;
-height: 483px;
-        background-repeat: no-repeat;
-        
+      max-width: 950px; 
+        height: 883px; 
+        flex-shrink: 0;
+        margin-left: 0;
+        background-size: cover;
     }
 
-/* popular-tour */
+    .bannar-content{
+        padding-top: 150px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+       
+    }
+    .bannar-content-heading{
+        font-family: Mulish;
+        font-size: 50px;
+        font-weight: 800;
+        padding-right: 0px;
+      
+    }
+    
+    .bannar-content-p{
+        
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 150;
+        line-height: 21px; 
+    }
+  
+.input-fild{
+    flex-direction: column;
+    
+}
+.input{
+    width:100%
+
+}
+
+.bannar-content-p{
+width: 100%;
+}
+
+.input-fild{
+    width: auto;
+    padding: 16px;
+    margin-left: 10px;
+    gap: 16px;
+
+}
+
+
+
 .tour{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 70px;
+
 }
 
 .tour-content-title{
-    font-size: 20px;
-    font-weight: 800;
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 25px;
+font-weight: 900;
+padding-left: 5px;
 }
 
+.tour-content-titel-common{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.tour-content-titel-ui{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 577px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.button{
+
+    width: 174px;
+height: 52px;
+}
 .tour-img{
-
+    width: 100%;
+    /* padding-left: 130px; */
 }
-
-
+    /* width:400px;
+height: 48px;
+color:#FFF;
+border-radius: 8px;
+background: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+border: 0; */
+}
 
 /* chose-your-destanitation */
 
@@ -144,5 +237,6 @@ font-size: 14px;
 font-weight: 300;
 margin-right: 600px;
 
+}
 }
 }
