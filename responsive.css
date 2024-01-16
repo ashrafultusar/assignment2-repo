@@ -219,7 +219,7 @@ margin-left: 100px
     display: flex;
     justify-content: center;
     align-items: center;
-   padding-top: 180px;
+   padding-top: 100px;
  }
 
  .hr{
@@ -231,9 +231,29 @@ margin-left: 100px
 .footer-bottom{
     padding-left: 160px;
     padding-top: 50px;
+    padding-bottom: 30px;
 
 
 }
 
+/* my-creation */
 
+.massage{
+    width: 100%;
+    height: 100%px;
+   
+}
+.input-me{
+    padding-top:150px;
+
+}
+.intex{
+    width: 100%;
+height:100%;
+}
+
+.inbutt{
+    width: 100%;
+    height: 100%;
+}
 }
