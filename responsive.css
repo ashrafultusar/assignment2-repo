@@ -110,6 +110,14 @@ width: 309px;
 }
 
 
+/* news-later-section */
+
+.newslater{
+  flex-direction: column;
+
+ }
+
+
 /* footer-section */
 .footer-banar{
     width: 600px;
