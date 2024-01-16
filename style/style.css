@@ -264,12 +264,9 @@ font-weight: 800;
     width: 643px;
 }
 
-
-
 .card-top{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .card-1 {
@@ -491,7 +488,6 @@ font-weight: 300;
     align-items: center;
     flex-direction: column;
     padding-top: 160px;
-
 }
 
 .input{

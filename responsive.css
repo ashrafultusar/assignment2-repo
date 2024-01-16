@@ -21,6 +21,7 @@
         font-size: 50px;
         font-weight: 800;
         padding-right: 0px;
+        padding-left: 0px;
     }
     
     .bannar-content-p{
@@ -54,15 +55,7 @@ width: 100%;
 .tour-img{
     padding-left:0px;
 } 
- /* .tour-content{
-    width: 100%;
-}
-.tour-content-title{
-    padding-bottom: 0px; 
-    }
-    .tour-content-titel-common{
-    padding: 0px;
-    } */
+ 
 
 /* chose-your-destanitation */
 
