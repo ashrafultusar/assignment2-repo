@@ -104,4 +104,31 @@ width: 309px;
 }
 
 
+/* footer-section */
+.footer-banar{
+    width: 600px;
+    height: 509px;
+    flex-shrink: 0;
+}
+.foot-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 180px;
+ }
+
+ .hr{
+    width: 335px;
+    height: 1px;
+    margin-right: 1550px;
+}
+
+.footer-bottom{
+    color: #131318;
+font-family: Inter;
+font-size: 14px;
+font-weight: 300;
+margin-right: 600px;
+
+}
 }
